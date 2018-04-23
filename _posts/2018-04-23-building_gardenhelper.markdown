@@ -11,7 +11,7 @@ Wouldn't it be nice to have an app that presents all that information in one pla
 
 The basic idea of GardenHelper is to provide detailed planting, growing and harvesting information there crops based on the current month and the user's local growing conditions. Initially, it seemed like a pretty daunting task to scrape for all this information, but I managed to find a few sites that had aggregated the information into a useful interface.
 
-**Plan of Attack**
+#Plan of Attack
 
 At this point, I'd determined what I wanted my app to do and where I'd be scraping my information from.  Before sitting down to code, I quickly jotted down some notes on how I thought the interface would work, as well as what kind of properties a crop has:
 
