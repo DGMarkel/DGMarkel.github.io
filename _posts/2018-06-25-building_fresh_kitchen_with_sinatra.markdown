@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Building Fresh Kitchen with Sinatra"
-date:       2018-06-25 18:52:20 +0000
+date:       2018-06-25 14:52:21 -0400
 permalink:  building_fresh_kitchen_with_sinatra
 ---
 
@@ -14,7 +14,7 @@ Fresh Kitchen is a web app with a very simple concept.   It keeps users' kitchen
 * by directing users to the appropriate Fresh Direct page to replace products close to expiration
 * by warning users of, and automatically removing, expired products
 
-Before any project, I like to sit down and put together a pretty seriously fleshed-out game plan.  I had a very limited amount of time to build out the website: about three days.  Most of that hour was spent putting together two separate plans of attack: one was a list of essential tasks, to get a working site up and running; the other was a wishlist of items that weren't necessarry but would add to the user experience.
+Before any project, I like to sit down and put together a pretty seriously fleshed-out game plan.  I had a very limited amount of time to build out the website: about three days.  Most of that hour was spent putting together two separate plans of attack: one was a list of essential tasks, to get a working site up and running; the other was a wishlist of items that weren't necessary but would add to the user experience.
 
  
 The following includes highlights from both lists:  
@@ -48,7 +48,7 @@ With a half-day left to work out coding details, I had plenty of time to work on
 
 Finally, let's say a user's 7-grain peasant loaf is about to expire.  The about-to-expire warning  includes a link to Fresh Direct with a list of all the 7-grain peasant loaves in its inventory.  This feature of my site still needs work, but I'm happy that I was able to add this to Fresh Kitchen. 
 
-One of my takeaways from this project is that users wouldn't be aware of the work involved in what are essentially mundane and invisible tasks.  No one but a coder would realize that logic is needed to dynamically account for word conjugation, or that it would take several hours to build out the logic necessary to check for and warn users regarding expiration.  I certainly gained an appreciation for the invisible work involved in great web design.
+One of my takeaways from this project is that users aren't aware of the work involved in what are essentially mundane and invisible tasks.  No one but a coder would realize that logic is needed to dynamically account for word conjugation, or that it would take several hours to build out the logic necessary to check for and warn users regarding expiration.  I certainly gained an appreciation for the invisible work involved in great web design.
 
 While Fresh Kitchen was running smoothly by the end of day two, I gave myself a third day to dress it up, work on user flow, eliminate pages and routes that seemed unnecessary, etc.  I spent the entire day looking at other sites for inspiration, testing out different looks for my page, and pushing my admittedly pretty meager CSS skills to the limit.  Overall, I'm happy with what I developed in a day, but I'm thankful that this project is a test of my backend skills and not visual design.
 
