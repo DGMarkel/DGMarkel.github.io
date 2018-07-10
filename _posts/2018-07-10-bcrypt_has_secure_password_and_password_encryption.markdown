@@ -11,7 +11,7 @@ has_secure_password is a an activerecord macro that makes password encryption so
 
 The majority of the work in maintaining password security goes to bcrypt, an algorithm that takes user passwords and "hashes them," converting them into strings of gibberish and adding a "salt", or small string of random data.  These hashed passwords are incredibly difficult to revert to their original format.  Hashed passwords are stored server-side in the password_digest column of a user table. Returning users' password entries can then be authenticated against the password_digest attribute.
 
-has_secure_password is added to a user model and gives it three methods: authenticate, password=, and password_confirmation=.  It validates, on creation of a new account, that password fields have been filled in, that passwords are less than or equal to 72 bytes in size, and, optionally, that a user has entered the password correctly twice.  If any of these conditions haven't been met, a new account will not be created.
+has_secure_password is added to a user model and gives it three instance methods: authenticate, password=, and password_confirmation=.  It validates, on creation of a new account, that password fields have been filled in, that passwords are less than or equal to 72 bytes in size, and, optionally, that a user has entered the password correctly twice.  If any of these conditions haven't been met, a new account will not be created.
 
 In the following signup route, we see has_secure_password validations in action.  If a new user instance cannot be saved to the database given user input, the user will be redirected to a failure page: 
 
