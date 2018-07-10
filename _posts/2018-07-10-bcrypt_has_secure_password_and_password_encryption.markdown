@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Bcrypt, Has_Secure_Password and Password Encryption"
-date:       2018-07-10 15:50:34 +0000
+date:       2018-07-10 11:50:34 -0400
 permalink:  bcrypt_has_secure_password_and_password_encryption
 ---
 
