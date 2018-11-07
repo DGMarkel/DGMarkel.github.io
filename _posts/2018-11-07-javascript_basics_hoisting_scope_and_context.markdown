@@ -141,7 +141,7 @@ guessMyFavoriteColor("blue") ==>
 Const declarations work similarly to let, except that they must be assigned a variable when they are declared, because they can't be reassigned after that point.
 
 # Context
-In contrast to scope and hoisting, context is a relatively simple concept.  When this is called within the method of an object, it refers to that object.  There are several exceptions: inside of an arrow function, this will refer to that functions container, and inside of a function nested within an instance method, this will return undefined.
+In contrast to scope and hoisting, context is a relatively simple concept.  When this is called within the method of an object, it refers to that object.  
 
 ```
 let definitelyTrue = {
@@ -181,6 +181,8 @@ This called on its own will default to the global context and return the window 
 this ==>
   Window {postMessage: ƒ, blur: ƒ, focus: ƒ, close: ƒ, parent: Window, …}
 ```
+
+Finally, there are several exceptions: inside of an arrow function, this will refer to that functions container, and inside of a function nested within an instance method, this will return undefined.
 
 
 
