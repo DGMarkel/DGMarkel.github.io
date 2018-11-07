@@ -21,7 +21,7 @@ The scope of a variable refers to where it is defined within Javacript code.  Th
 
 Undeclared variables, which are not preceded by var, let, or const, are accessible anywhere within a given set of code.  They can be defined at any point within that code, and their values can be modified indiscriminately. 
 
-**Function Scope **
+**Function Scope**
 
 Var declarations are function scoped, meaning that, for the most part, they are only defined within the function in which they were initialized.   The following example illustrates this concept:
 
