@@ -1,17 +1,17 @@
 ---
 layout: post
 title:      "Javascript Basics: Hoisting, Scope, and Context"
-date:       2018-11-07 22:26:32 +0000
+date:       2018-11-07 17:26:33 -0500
 permalink:  javascript_basics_hoisting_scope_and_context
 ---
 
 
-Javascript engines initialize and execute code in seperate stages and read the code from top to bottom.  In the first stage, declarations are saved to memory without being assigned values.  They are undefined until the engines move to execution.  These declarations fall into four variable types:  undeclared, var, let, and const.  
+Javascript engines initialize and execute code in seperate stages and read the code from top to bottom.  In the first stage, declarations are saved to memory without being assigned values.  They are undefined until the engine moves to execution.  These declarations fall into four variable types:  undeclared, var, let, and const.  
 
 Undeclared, var, and let variables can have their values reassigned, while const can only be assigned once.
 
 
-As of ES6, the most recent version of Javascript, programmers are advised to use only let and const, as they provide a greater degree of control over variable scope, which I'll describe below..  
+As of ES6, the most recent version of Javascript, programmers are advised to use only let and const, as they provide a greater degree of control over variable scope, which I'll describe below.  
 
 # Scope
 
