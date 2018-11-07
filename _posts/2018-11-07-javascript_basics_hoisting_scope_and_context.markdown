@@ -91,7 +91,7 @@ undefined
 undefined
 ```
 
-Even though it's perfectly acceptable to declare a function and assign it a value simultaneously, ```var color = blue``` is read as an assignment, and therefore isn't hoisted.  Since Javascript is executed from top to bottom, color is undefined when it it logged by aColor().
+Even though it's perfectly acceptable to declare a function and assign it a value simultaneously, ```var color = blue``` is read as an assignment, and therefore isn't hoisted.  Since Javascript is executed from top to bottom, color is undefined when it it's logged by aColor().
 
 For this reason, and for logic's sake, it is always advisable to assign values to variables at the top of their scope.
 
