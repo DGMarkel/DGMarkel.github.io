@@ -15,7 +15,7 @@ As of ES6, the most recent version of Javascript, programmers are advised to use
 
 # Scope
 
-The scope of a variable refers to where it is defined within Javacript code.  There are three types of scoping in Javascript.
+The scope of a variable refers to where it is defined within Javacript code.  There are three types of scoping in Javascript: global, function, and block scope.
 
 **Global Scope**
 
