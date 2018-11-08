@@ -15,7 +15,7 @@ As of ES6, the most recent version of Javascript, programmers are advised to use
 
 # Scope
 
-The scope of a variable refers to where it is defined within Javacript code.  There are three types of scoping in Javascript: global, function, and block scope.
+The scope of a variable refers to its accessibility within a given set of Javacript code.  There are three types of scoping in Javascript: global scope, function scope, and block scope.
 
 **Global Scope**
 
@@ -108,7 +108,7 @@ undefined
 
 **Block Scope**
 
-The declarations let and const, which were introduced in ES6, are block scoped, meaning accessible within a set of curly braces.  In many ways, let is just like var, the major difference being that var is accessible anywhere within its parent function, while let is only accessible within its block 
+The declarations let and const, which were introduced in ES6, are block scoped, meaning accessible within a set of curly braces.  In many ways, let is just like var, the major difference being that var is accessible anywhere within its parent function, while let is only accessible within its block. 
 Here's an example illustrating their differences:
 
 ```
