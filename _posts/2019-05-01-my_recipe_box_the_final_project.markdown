@@ -6,7 +6,7 @@ permalink:  my_recipe_box_the_final_project
 ---
 
 
-# What's Is It?
+# What Is It?
 
 Recipe Box is a nutritional tracker geared specifically towards home cooks who like to write their own recipes and experiment with others.  As someone who cooks every day and uses nutritional trackers on a daily basis, tracking my diet has become a time-consuming process.  I set out to design an app that is more user-friendly, more design-oriented, and less time-consuming than the ones I currently use.    
 # What's Different About it?
