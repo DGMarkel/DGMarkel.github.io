@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Job Search Report: To Intern or Not to Intern?"
-date:       2019-09-29 02:32:04 +0000
+date:       2019-09-28 22:32:05 -0400
 permalink:  job_search_report_to_intern_or_not_to_intern
 ---
 
