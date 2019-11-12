@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Coping With Burnout"
-date:       2019-11-12 04:52:24 +0000
+date:       2019-11-11 23:52:25 -0500
 permalink:  coping_with_burnout
 ---
 
