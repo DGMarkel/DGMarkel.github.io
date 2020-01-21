@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Effective Learning in Development: My Holy Grail"
-date:       2020-01-21 00:51:47 +0000
+date:       2020-01-20 19:51:48 -0500
 permalink:  effective_learning_in_development_my_holy_grail
 ---
 
