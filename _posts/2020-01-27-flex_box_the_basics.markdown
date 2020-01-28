@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Flex Box: The Basics"
-date:       2020-01-28 01:57:35 +0000
+date:       2020-01-27 20:57:37 -0500
 permalink:  flex_box_the_basics
 ---
 
